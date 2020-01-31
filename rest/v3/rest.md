@@ -1,4 +1,4 @@
-# Open API Document（v3.0.0）for BitoPro
+# Open API Document（v3.2.1）for BitoPro
 
 ## [Changelog](changelog.md)
 
@@ -58,10 +58,11 @@
 
 ### `Auth`
 
-| Endpoint                                           | URL                            | Example                                              |
-| -------------------------------------------------- | ------------------------------ | ---------------------------------------------------- |
-| [Get the account balance](auth/account-balance.md) | `GET` /accounts/balance        | https://api.bitopro.com/v3/accounts/balance          |
-| [Get order list](auth/order-list.md)               | `GET` /orders/{pair}           | https://api.bitopro.com/v3/orders/bito_twd           |
-| [Create an order](auth/create-order.md)            | `POST` /orders/{pair}          | https://api.bitopro.com/v3/orders/bito_twd           |
-| [Cancel an order](auth/cancel-order.md)            | `DELETE` /orders/{pair}/{id}   | https://api.bitopro.com/v3/orders/bito_twd/123456789 |
-| [Get an order](auth/get-order.md)                  | `GET` /orders/{pair}/{orderId} | https://api.bitopro.com/v3/orders/bito_twd/123456789 |
+| Endpoint                                           | URL                                     | Example                                                     |
+| -------------------------------------------------- | --------------------------------------- | ----------------------------------------------------------- |
+| [Get the account balance](auth/account-balance.md) | `GET` /accounts/balance                 | https://api.bitopro.com/v3/accounts/balance                 |
+| [Get order list](auth/order-list.md)               | `GET` /orders/{pair}                    | https://api.bitopro.com/v3/orders/bito_twd                  |
+| [Create an order](auth/create-order.md)            | `POST` /orders/{pair}                   | https://api.bitopro.com/v3/orders/bito_twd                  |
+| [Cancel an order](auth/cancel-order.md)            | `DELETE` /orders/{pair}/{id}            | https://api.bitopro.com/v3/orders/bito_twd/123456789        |
+| [Get an order](auth/get-order.md)                  | `GET` /orders/{pair}/{orderId}          | https://api.bitopro.com/v3/orders/bito_twd/123456789        |
+| [Get order trades](auth/order-trades.md)          | `GET` /orders/trades/{pair}             | https://api.bitopro.com/v2/orders/trades/bito_twd           |
