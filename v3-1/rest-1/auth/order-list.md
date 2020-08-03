@@ -12,6 +12,8 @@
 |  | pair |  | string | Yes | The trading pair in format ${BASE}\_${QUOTE}, Please follow the [link](https://www.bitopro.com/fees) to check the pair list. |  |  | bito\_eth |
 |  |  | page | integer | No | The page number for the query. | 1 |  | 1 |
 |  |  | active | bool | No | The flag to specify if only active\(in progress\) orders will return. | `false` | `true`, `false` | true |
+|  |  | startTime | long | No | The start of timestamp to filter the orders. | 0 |  | 1596158198653 |
+|  |  | endTime | long | No | The end of timestamp to filter the orders. | 0 |  | 1596158198653 |
 
 ## Response sample
 
