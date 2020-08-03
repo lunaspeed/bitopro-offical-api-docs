@@ -19,7 +19,7 @@
 | :--- | :--- | :--- | :--- |
 | action | string | Yes | The action type of the order, should only be `BUY` or `SELL`. |
 | amount | string | Yes | The amount of the order for the trading pair, please follow the [link](https://www.bitopro.com/fees) to see the limitations. |
-| price | string | Yes | The price of the order for the trading pair. |
+| price | string | No | The price of the order for the trading pair. Price is only required in non-market orders.|
 | timestamp | integer | Yes | The client timestamp in millisecond. |
 | type | string | Yes | The order type, should only be `LIMIT`, `MARKET` or `STOP_LIMIT`. |
 | stopPrice | string | No | The price to trigger stop limit order, **only required** when `type` is `STOP_LIMIT`. |
